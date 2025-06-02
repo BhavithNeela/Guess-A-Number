@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+        <button class="btn again"style="background-color: #eee;">Again</button>
+        <h1>Guess The Number</h1>
+        <p class="b">(Between 1 to 20)</p>
+        <div class= "between">?</div>
+
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+    <div class="col-6 mt-5" style=" margin-left: 30px;">
+        <input type="number" class="guess" style="color: #eee;">
+        <div>
+        <button class="btn check" style="background-color: #eee;">Check!</button>
+    </div>
+    
+    </div>
+    <div class="col-5 sendiv" style="color: #eee;">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">0</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+        <p>You Have <span class="chance"></span> Chances More....</p>
+    </div>
+</div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

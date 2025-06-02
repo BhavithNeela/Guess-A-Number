@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: auto;
+    padding: 2rem 1rem;
+    border-bottom: 7px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+header .btn.again {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.b {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.between {
+    background: #eee;
+    color: #333;
+    font-size: 4rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.guess {
+    background: none;
+    border: 4px solid #eee;
+    font-family: inherit;
+    color: inherit;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 1.5rem;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.sendiv {
+    margin-top: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .between {
+        font-size: 2.5rem;
+        width: 8rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .guess {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    .sendiv p {
+        font-size: 0.9rem;
+    }
+}
