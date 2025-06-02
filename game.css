@@ -93,3 +93,8 @@ header h1 {
         font-size: 0.9rem;
     }
 }
+.place{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
